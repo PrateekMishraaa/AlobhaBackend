@@ -1,2 +1,6 @@
-/node_modules
-/.env
+echo "# Dependencies" > .gitignore
+echo "node_modules/" >> .gitignore
+echo ".env" >> .gitignore
+echo ".env.local" >> .gitignore
+echo ".env.development" >> .gitignore
+echo ".env.production" >> .gitignore
