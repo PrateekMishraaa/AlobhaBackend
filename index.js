@@ -16,8 +16,8 @@ app.use("/uploads", express.static("uploads"))
 app.use('/api',User)
 app.use('/api',Form)
 app.use('/',(req,res)=>{
-  console.log('baba')
-  res.send('pandit')
+  console.log('prateek')
+  res.send('world')
 })
 mongooose.connect(process.env.MONGOURI)
 .then(()=>{
