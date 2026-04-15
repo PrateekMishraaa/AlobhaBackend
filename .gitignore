@@ -4,3 +4,5 @@ echo ".env" >> .gitignore
 echo ".env.local" >> .gitignore
 echo ".env.development" >> .gitignore
 echo ".env.production" >> .gitignore
+/node_modules
+/.env
